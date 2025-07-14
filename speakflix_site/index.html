@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">   <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>Speakflix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid container">
+                <a class="navbar-brand" href="#em_alta"><img src="img/Speakflix.png" alt="Logo Speakflix"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.5 12a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-4a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-4a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13z"/>
+                    </svg> 
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#h2-2">Filmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#h2-3">Séries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#h2-4">Romance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#h2-5">Comédia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#h2-6">Cadastro</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#h2-7">Mosaico</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#h2-8">Recomendações</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#h2-9">Planos</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#animation_section">Animação</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search" />
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="borda_pai" id="borda_pai1">
+        <div class="borda" id="borda1"></div>
+    </div>
+    <main>
+
+        <section id="em_alta">
+            <h2 id="popular"><b>Em Alta:</b></h2>
+            <div id="filme_popular">
+                <img srcset="
+                    img/scarfacefundo3.webp 320w,
+                    img/scarfacefunfo2.webp 480w,
+                    img/scarfacefundo.webp 800w
+                " sizes="(max-width: 400px) 320px, (max-width: 1200px) 480px, 800px" src="img/scarfacefundo.webp" alt="descricao" />
+            </div>
+            <img id="scarface" src="img/scarface.png" alt="">
+            <button><img src="img/play.png" alt=""> <span>Assistir</span></button>
+            <h2>Sobre <b>Scarface</b></h2>
+            <div class="info">
+                <div>
+
+                    <p><strong>Direção:</strong> Brian De Palma</p>
+
+                </div>
+                <div>
+
+                    <p><strong>Elenco:</strong> Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio,
+                        Paul Shenar, Robert Loggia, Miriam Colon, F. Murray Abraham, Harris Yulin, Ángel Salazar, Pepe
+                        Serna</p>
+
+                </div>
+                <div>
+
+                    <p><strong>roteiro:</strong> Oliver Stone</p>
+
+                </div>
+                <div>
+
+                    <p><strong>Genêro:</strong> Filmes clássicos, Clássicos do suspense, Dramas, Filmes de suspense,
+                        Filmes sobre questões sociais</p>
+
+                </div>
+                <div>
+
+                    <p><strong>Este filme é:</strong> Violento</p>
+
+                </div>
+                <div>
+                    <p><strong>Classificação etária:</strong> 18 — violência, drogas — Não recomendado para menores de
+                        18
+                        anos</p>
+
+                </div>
+            </div>
+            <div class="borda_pai" id="borda_pai2">
+                <div class="borda" id="borda2"></div>
+            </div>
+        </section>
+        <section id="filmes">
+            <h2 id="h2-2"> <b>Clássicos</b></h2>
+            <div class="fileira" id="fileira1">
+                <figure class="filme"> <img src="img/filme1.webp" alt=""></figure>
+                <figure class="filme"> <img src="img/filme2.webp" alt=""></figure>
+                <figure class="filme"> <img src="img/filme3.webp" alt=""></figure>
+                <figure class="filme"> <img src="img/filme4.webp" alt=""></figure>
+                <figure class="filme"> <img src="img/filme5.webp" alt=""></figure>
+                <figure class="filme"> <img src="img/filme6.webp" alt=""></figure>
+            </div>
+            <h2 id="h2-3"><b>Séries</b></h2>
+            <div class="fileira" id="fileira2">
+                <figure class="filme"> <img src="img/serie1.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/serie2.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/serie3.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/serie4.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/serie5.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/serie6.jpg" alt=""></figure>
+            </div>
+            <h2 id="h2-4"> <b>Romance</b></h2>
+            <div class="fileira" id="fileira3">
+                <figure class="filme"> <img src="img/filme13.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme14.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme15.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme16.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme17.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme18.jpg" alt=""></figure>
+            </div>
+            <h2 id="h2-5"> <b>Comédia</b></h2>
+            <div class="fileira" id="fileira4">
+                <figure class="filme"> <img src="img/filme7.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme8.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme9.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme10.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme11.jpg" alt=""></figure>
+                <figure class="filme"> <img src="img/filme12.jpg" alt=""></figure>
+            </div>
+        </section>
+        <section id="Sign-up">
+            <h2 id="h2-6"><b>Cadastre-se!</b></h2>
+            <div id="formulario">
+            <div id="cadastro">
+                <form>
+                    <fieldset>
+                        <label for="n1">Nome:</label>
+                        <input type="text" id="n1" placeholder="Digite seu nome">
+                        <label for="data">Data de nascimento:</label>
+                        <input type="date" id="data">
+                        <label for="em">Email:</label>
+                        <input type="email" id="em" placeholder="Digite seu email">
+                        <label for="s1">Senha:</label>
+                        <input type="password" id="s1" placeholder="Crie sua senha">
+                        <label for="s2">Confirme sua senha:</label>
+                        <input type="password" id="s2" placeholder="Confirme sua senha">
+                        <div id="butao"><button><span>Enviar</span></button></div>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="imagem_cadastro">
+                <img srcset="
+                    img/cadastro3.webp 320w,
+                    img/cadastro2.webp 480w,
+                    img/cadastro1.webp 800w
+                " sizes="(max-width: 400px) 320px, (max-width: 1200px) 480px, 800px" src="img/cadastro1.webp" alt="descricao" loading=”lazy” />
+            </div>
+            </div>
+        </section>
+        <section id="mosaico_pai">
+            <h2 id="h2-7"><b>Mosaico</b></h2>
+            <div id="mosaico_filho">
+                <div class="foto" id="foto1"></div>
+                <div class="foto" id="foto2"></div>
+                <div class="foto" id="foto3"></div>
+                <div class="foto" id="foto4"></div>
+                <div class="foto" id="foto5"></div>
+                <div class="foto" id="foto6"></div>
+                <div class="foto" id="foto7"></div>
+                <div class="foto" id="foto8"></div>
+                <div class="foto" id="foto9"></div>
+                <div class="foto" id="foto10"></div>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="container">
+                <h2 id="h2-8"><b>Recomendações Para Você</b></h2>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/carrosel4.webp" alt="First slide" loading="lazy">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carrosel5_1.webp" alt="Second slide" loading="lazy">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carrosel6_1.webp" alt="Third slide" loading="lazy">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                        data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="table-responsive container mt-5">
+                <h2 id="h2-9"><b>Nossos Planos</b></h2>
+                <table class="table table-striped table-bordered table-hover text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Planos</th>
+                            <th>Preço por mês</th>
+                            <th>Preço total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mensal</td>
+                            <td>R$ 35,00</td>
+                            <td>R$ 35,00</td>
+                        </tr>
+                        <tr>
+                            <td>Trimestral</td>
+                            <td>R$ 30,00</td>
+                            <td>R$ 90,00</td>
+                        </tr>
+                        <tr>
+                            <td>semestral</td>
+                            <td>R$ 25,00</td>
+                            <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <td>Anual</td>
+                            <td>R$ 20,00</td>
+                            <td>R$ 240,00</td>
+                        </tr>
+                    </tbody>
+                    <!-- <tfoot class="table-light">
+                        <tr>
+                            <td colspan="4">* Só aceitamos pagamnetos em cartão de crédito ou vale presente.</td>
+                        </tr>
+                    </tfoot> -->
+                </table>
+            </div>
+
+        </section>
+        <section id="animation_section">
+            <div id="bola"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Contato: Speakflix@gmail.com</p>
+        <p>CNPJ: 12.345.678/0001-95</p>
+        <p>Endereço: Rua Tecla 619</p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
